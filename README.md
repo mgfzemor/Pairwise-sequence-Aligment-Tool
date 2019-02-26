@@ -16,9 +16,34 @@ To have this running your local machine, you must have the following application
 ```bash
 $ git clone https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool.git
 ```
-- Create virtual environment
+### :floppy_disk: Prerequisites
+To have this running your local machine, you only must have a Python version >= 2.7 and Virtualenv tool. 
+
+Learn more about [Virtualenv](https://virtualenv.pypa.io/en/latest/), which is pretty useful to isolated Python environments.
+- Installing Virtualenv
 ```bash
-$ cd Pairwise-sequence-Aligment-Tool
-$ virtualenv env
-$ . env/bin/activate
+$ sudo apt-get install virtualenv
+```
+
+### :zap: Getting Started
+- Install application requirements listed above
+- clone project
+
+```bash
+$ git clone https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool.git
+```
+- Go to project path and create a virtual environment
+
+```bash
+$ cd Pairwise-sequence-Aligment-Tool/ && virtualenv env
+```
+
+- Active the virtualenv and install requirements
+```bash
+$ . env/bin/activate && pip install -r requirements.txt
+```
+
+- Run application
+```bash
+$ flask run
 ```
