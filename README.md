@@ -4,20 +4,11 @@ This repository offers a simple application to align sequences of proteins or am
 
 ![GitHub Logo](https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool/blob/master/docs/img/aligment.png)
 
-### :floppy_disk: Prerequisites
-To have this running your local machine, you must have the following applications in your computer
-- Python 3.*
-- Virtualenv >= 15.0.1
-
-### :zap: Getting Started
-- Install application requirements listed above
-- clone project
-
 ```bash
 $ git clone https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool.git
 ```
 ### :floppy_disk: Prerequisites
-To have this running your local machine, you only must have a Python version >= 2.7 and Virtualenv tool. 
+To have this running your local machine, you only must have a Python version = 3.* and Virtualenv tool. 
 
 Learn more about [Virtualenv](https://virtualenv.pypa.io/en/latest/), which is pretty useful to isolated Python environments.
 - Installing Virtualenv
