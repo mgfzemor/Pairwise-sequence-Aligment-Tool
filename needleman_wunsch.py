@@ -4,22 +4,13 @@ gapScore = -4
 d = gapScore
 
 def create_matriz(rows, cols):
-    F=[]
-    for i in range(rows):
-        F+=[[0]*cols]
-    return F
+    return [[0]*cols for i in range(rows)]
 
 def S(ai, bi):
-    if ai == bi:
-        r = matchScore
-    else:
-        r = mismatchScore
-    return r
+    return matchscore if ai == bi else mismatchScore
 
 def set_scores(match, mismatch, indel):
-    matchScore = match
-    mismatchScore = mismatch
-    gapScore = indel
+    matchScore, mismatchScore, gapScore = match, mismatch, indel
 
 def init_DP(F, rows, cols):
     for i in range(rows):
@@ -37,9 +28,7 @@ def compute_DP(F, A, B):
 
 def stackback(F, A, B):
     AlignmentA, AlignmentB = '', ''
-    i = len(A)
-    j = len(B)
-    score = F[i][j]
+    i, j = len(A), len(B)
     while (i >= 0 and j >= 0):
         if i == 0 and j == 0:
             break

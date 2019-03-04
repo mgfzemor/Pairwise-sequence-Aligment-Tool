@@ -1,16 +1,16 @@
 # :microscope: Pairwise Sequence Aligment Tool (PSAT) :microscope:
 
-This repository offers a simple application to align sequences of proteins or amino acids, on PSAT you will find some options of sequence alignment such as global alignment implemented using the Needleman-Wunsh algorithm and an function to local aligment using the Smith-Waterman algoritmh.
+This repository offers a simple application to align sequences of proteins or amino acids. On PSAT you will find some options of sequence alignment such as global alignment, implemented using the Needleman-Wunsh algorithm, and local alignment, using the Smith-Waterman algorithm.
 
-![GitHub Logo](https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool/blob/master/docs/img/aligment.png)
+![PSAT UI](https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool/blob/master/docs/img/aligment.png)
 
 ```bash
 $ git clone https://github.com/mgfzemor/Pairwise-sequence-Aligment-Tool.git
 ```
 ### :floppy_disk: Prerequisites
-To have this running your local machine, you only must have a Python version = 3.* and Virtualenv tool. 
+To have this running your local machine, you only must have a Python version = 3.* and a Virtualenv tool. 
 
-Learn more about [Virtualenv](https://virtualenv.pypa.io/en/latest/), which is pretty useful to isolated Python environments.
+Learn more about [Virtualenv](https://virtualenv.pypa.io/en/latest/), which is pretty useful to manage isolated Python environments.
 - Installing Virtualenv
 ```bash
 $ sudo apt-get install virtualenv
